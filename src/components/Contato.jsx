@@ -2,7 +2,7 @@ import styles from "../style";
 import Button from "./Button";
 import { curriculo, github, linkedin, email } from "../assets";
 
-const CTA = () => (
+const Contato = () => (
   <section
     className={`h-auto mx-10 xs:my-[5rem] ss:mt-[15rem] ss:mb-[10rem] xs:justify-center`}
   >
@@ -97,4 +97,4 @@ const CTA = () => (
   </section>
 );
 
-export default CTA;
+export default Contato;

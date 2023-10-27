@@ -2,7 +2,7 @@ import { projetos } from "../constants";
 import styles, { layout } from "../style";
 import Projetos from "./Projetos";
 
-const CardDeal = () => (
+const CardProjetos = () => (
   <section className="flex flex-col xs:my-[5rem] sm:my-[10rem] ">
     <div
       className="flex flex-col pt-5
@@ -21,4 +21,4 @@ const CardDeal = () => (
   </section>
 );
 
-export default CardDeal;
+export default CardProjetos;
