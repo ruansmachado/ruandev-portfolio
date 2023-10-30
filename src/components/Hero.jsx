@@ -10,11 +10,11 @@ const Hero = () => {
         <img src={ruanPerfil} alt="garoto" className="flex h-[65%]" />
       </div>
       <div className="flex flex-col justify-end pointer-events-none w-full sm:mt-[3rem]">
-        <div className="flex flex-col xs:h-[17rem] w-auto sm:h-[10%] lg:h-[60%]  lg:justify-start xs:items-center sm:items-start">
+        <div className="flex flex-col xs:h-[21.5rem] w-auto sm:h-[10%] lg:h-[60%]  lg:justify-start xs:items-center sm:items-start">
           <h1 className="flex sm:pl-[5rem]  text-gradient h-40rem  font-kristi font-semibold ss:text-[3.5rem] sm:relative text-[40px]  ss:leading-[100.8px]">
             Olá, tudo bem?{" "}
           </h1>
-          <h2 className="flex font-kristi text-justify text-white xs:text-[1.2rem] ss:text-[1.3rem] sm:align-top w-auto h-auto ss:px-20  lg:text-[1.4rem] p-[2rem] md:m-0  lg:w-[50rem]  lg:h-40">
+          <h2 className="flex font-kristi text-justify text-white xs:text-[1.2rem] ss:text-[1.3rem] sm:align-top w-auto xs:h-1 sm:h-52 ss:px-20  lg:text-[1.4rem] p-[2rem] md:m-0  lg:w-[50rem]  lg:h-40">
             Sou desenvolvedor front-end, residente de Florianópolis e atualmente
             curso Ciência da Computação e sou graduado em Análise e
             Desenvolvimento de Sistemas. Meu foco é em acessibilidade,

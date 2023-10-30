@@ -25,7 +25,6 @@ import php from "./php.svg";
 
 export {
   iconblack,
-  bwleafs,
   menu,
   close,
   arrowUp,
