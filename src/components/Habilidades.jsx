@@ -12,7 +12,7 @@ const Habilidades = ({ title, icon }) => (
 
     <div className="flex flex-col">
       <div className="flex flex-row justify-center pt-5 mb-2">
-        <img src={icon} alt="icon" className="w-[43px] h-[40px] " />
+        <img src={icon} alt="icon" className="w-[63px] h-[60px] " />
       </div>
     </div>
   </div>

@@ -3,12 +3,12 @@ import styles, { layout } from "../style";
 import Projetos from "./Projetos";
 
 const CardProjetos = () => (
-  <section className="flex flex-col xs:my-[5rem] sm:my-[10rem] ">
+  <section className="flex flex-col xs:my-[5rem] sm:mb-[10rem] ">
     <div
-      className="flex flex-col pt-5
+      className="flex flex-col
     "
     >
-      <h2 className={`${styles.heading2} flex flex-col relative pt-10 mb-10`}>
+      <h2 className={`${styles.heading2} flex flex-col relative mb-10`}>
         Projetos
       </h2>
     </div>

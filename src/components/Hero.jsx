@@ -6,7 +6,7 @@ const Hero = () => {
       id="home"
       className={` flex flex-col place-items-center sm:flex-row  lg:w-auto lg:h-[35rem] lg:px-2 lg:mt-14`}
     >
-      <div className="flex  lg:justify-center w-[40%] sm:w-[36%] sm:ml-10 lg:w-[50%]">
+      <div className="flex  lg:justify-center w-[30%] sm:w-[36%] sm:ml-10 lg:w-[35%]">
         <img src={ruanPerfil} alt="garoto" className="flex h-[65%]" />
       </div>
       <div className="flex flex-col justify-end pointer-events-none w-full sm:mt-[3rem]">
