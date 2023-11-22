@@ -11,6 +11,16 @@ import {
   react,
   tailwind,
   php,
+  angular,
+  express,
+  linux,
+  mongodb,
+  mysql,
+  node,
+  postgresql,
+  python,
+  composer,
+  typescript,
 } from "../assets";
 
 export const navLinks = [
@@ -31,9 +41,9 @@ export const habilidades = [
     title: "PHP",
   },
   {
-    id: "javascript",
-    icon: javascript,
-    title: "JavaScript",
+    id: "python",
+    icon: python,
+    title: "Python",
   },
   {
     id: "html",
@@ -46,14 +56,65 @@ export const habilidades = [
     title: "CSS",
   },
   {
+    id: "javascript",
+    icon: javascript,
+    title: "JavaScript",
+  },
+  {
     id: "react",
     icon: react,
     title: "React.js",
   },
   {
+    id: "node",
+    icon: node,
+    title: "Node.js",
+  },
+  {
+    id: "express",
+    icon: express,
+    title: "Express.js",
+  },
+  {
+    id: "typescript",
+    icon: typescript,
+    title: "Typescript",
+  },
+  {
+    id: "angular",
+    icon: angular,
+    title: "Angular",
+  },
+
+  {
+    id: "mysql",
+    icon: mysql,
+    title: "MySQL",
+  },
+  {
+    id: "postgresql",
+    icon: postgresql,
+    title: "PostgreSQL",
+  },
+  {
+    id: "mongodb",
+    icon: mongodb,
+    title: "Mongodb",
+  },
+  {
     id: "tailwind",
     icon: tailwind,
     title: "Tailwind.css",
+  },
+  {
+    id: "composer",
+    icon: composer,
+    title: "Composer",
+  },
+  {
+    id: "linux",
+    icon: linux,
+    title: "Linux",
   },
 ];
 

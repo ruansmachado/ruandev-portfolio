@@ -23,6 +23,16 @@ import tailwind from "./tailwind-css.svg";
 import curriculoPDF from "./curriculo.pdf";
 import email from "./email.png";
 import php from "./php.svg";
+import angular from "./angular.png";
+import composer from "./composer.png";
+import express from "./express.png";
+import linux from "./linux.png";
+import mongodb from "./mongodb.png";
+import mysql from "./mysql.png";
+import node from "./node.png";
+import postgresql from "./postgresql.png";
+import python from "./python.png";
+import typescript from "./typescript.png";
 
 export {
   iconblack,
@@ -50,4 +60,14 @@ export {
   curriculoPDF,
   email,
   php,
+  angular,
+  express,
+  linux,
+  mongodb,
+  mysql,
+  node,
+  postgresql,
+  python,
+  composer,
+  typescript,
 };
