@@ -4,9 +4,9 @@ import { icon } from "../assets";
 
 const Footer = () => (
   <section
-    className={`${styles.flexCenter} place-items-center relative sm:pt-36 sm:pb-14 py-6 flex-col`}
+    className={`${styles.flexCenter} place-items-center relative sm:pt-36 sm:pb-14 pb-6 flex-col`}
   >
-    <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
+    <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start items-center">
         <img src={icon} alt="hoobank" className="w-[20%] h-[30%]" />
         <p className={`${styles.paragraph} mt-0.5 max-w-[250px] indent-10`}>

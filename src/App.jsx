@@ -4,8 +4,8 @@ import {
   Navbar,
   Hero,
   CardHabilidades,
-  CardDeal,
-  CTA,
+  CardProjetos,
+  Contato,
   Footer,
 } from "./components";
 
@@ -29,12 +29,12 @@ const App = () => (
     </div>
     <div className={`${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <CardDeal />
+        <CardProjetos />
       </div>
     </div>
     <div className={`${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <CTA />
+        <Contato />
       </div>
     </div>
     <div className={` ${styles.paddingX} ${styles.flexStart}`}>

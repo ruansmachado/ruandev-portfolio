@@ -2,9 +2,9 @@ import styles from "../style";
 import Button from "./Button";
 import { curriculo, github, linkedin, email } from "../assets";
 
-const CTA = () => (
+const Contato = () => (
   <section
-    className={`h-auto mx-10 xs:my-[5rem] ss:mt-[15rem] ss:mb-[10rem] xs:justify-center`}
+    className={`h-5rem mx-10 xs:mt-[5rem] ss:mt-[15rem] xs:justify-center`}
   >
     <div
       className={`relative ${styles.flexCenter} ${styles.boxWidth} ${styles.marginY} ${styles.padding} md:hidden h-[17rem] sm:flex-row flex-col  rounded-[20px] shadow-2xl bg-[#181e34]`}
@@ -21,12 +21,12 @@ const CTA = () => (
       </div>
     </div>
     <div
-      className={`relative ${styles.flexCenter} ${styles.boxWidth} ${styles.marginY} ${styles.padding} xs:invisible md:visible  h-[17rem] sm:flex-row flex-col  rounded-[20px] shadow-2xl bg-[#181e34] relative`}
+      className={`relative ${styles.flexCenter} ${styles.boxWidth} ${styles.marginY} ${styles.padding} xs:hidden md:flex  h-[17rem] sm:flex-row flex-col  rounded-[20px] shadow-2xl bg-[#181e34] relative`}
     >
       <h2 className={`${styles.heading1} absolute -top-[4.5rem] left-10 `}>
         Contato
       </h2>
-      <div className="flex-1 flex flex-row md:space-x-20 lg:justify-between h-40 ml-40 mr-30">
+      <div className="flex-1 flex flex-row md:space-x-20 lg:justify-between h-40 ml-20 mr-24">
         <div className="flex flex-col  pt-5 pr-5">
           <a
             href="https://github.com/ruansmachado"
@@ -63,7 +63,7 @@ const CTA = () => (
             </p>
           </a>
         </div>{" "}
-        <div className="flex flex-col  pt-5">
+        <div className="flex flex-col  pt-5  ">
           <a
             href="mailto:ruansmachado@yahoo.com"
             alt="Email link"
@@ -84,7 +84,7 @@ const CTA = () => (
       </div>
 
       <div
-        className={`${styles.flexCenter} flex-col  sm:ml-10 ml-0 sm:mt-0 mt-10 `}
+        className={`${styles.flexCenter} flex-col mx-14 sm:ml-10 ml-0 sm:mt-0 mt-10 `}
       >
         <img
           src={curriculo}
@@ -97,4 +97,4 @@ const CTA = () => (
   </section>
 );
 
-export default CTA;
+export default Contato;
