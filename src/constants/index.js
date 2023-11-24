@@ -11,7 +11,6 @@ import {
   react,
   tailwind,
   php,
-  angular,
   express,
   linux,
   mongodb,
@@ -79,11 +78,6 @@ export const habilidades = [
     id: "typescript",
     icon: typescript,
     title: "Typescript",
-  },
-  {
-    id: "angular",
-    icon: angular,
-    title: "Angular",
   },
 
   {

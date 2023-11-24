@@ -22,7 +22,6 @@ import tailwind from "./tailwind-css.svg";
 import curriculoPDF from "./curriculo.pdf";
 import email from "./email.png";
 import php from "./php.svg";
-import angular from "./angular.png";
 import composer from "./composer.png";
 import express from "./express.png";
 import linux from "./linux.png";
@@ -58,7 +57,6 @@ export {
   curriculoPDF,
   email,
   php,
-  angular,
   express,
   linux,
   mongodb,
