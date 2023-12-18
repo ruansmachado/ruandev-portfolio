@@ -17,9 +17,9 @@ const Hero = () => {
           <h2 className="flex font-kristi text-justify text-white xs:text-[1.2rem] ss:text-[1.3rem] sm:align-top w-auto xs:h-1 sm:h-52 ss:px-20  lg:text-[1.4rem] p-[2rem] md:m-0  lg:w-[50rem]  lg:h-40">
             Sou desenvolvedor front-end, residente de Florianópolis e atualmente
             curso Ciência da Computação e sou graduado em Análise e
-            Desenvolvimento de Sistemas. Meu foco é em acessibilidade,
-            integração e SEO, com ótima base em Javascript e Python, utilizando
-            React e Tailwind.
+            Desenvolvimento de Sistemas. Meu foco é em Node.js, integração e
+            SEO, com ótima base em Javascript, Python e PHP, utilizando React e
+            Tailwind.
           </h2>
         </div>
         <div className="flex flex-row-reverse right-10 relative h-auto">

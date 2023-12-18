@@ -12,7 +12,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        kristi: ["Belleza", "cursive"],
+        belleza: ["Belleza", "cursive"],
         montserrat: ["Montserrat", "sans-serif"],
       },
     },
