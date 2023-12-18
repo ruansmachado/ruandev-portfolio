@@ -16,7 +16,7 @@ const Navbar = () => {
         <img src={icon} alt="icon-ruandev." />
       </a>
 
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+      {/* <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -54,8 +54,8 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-        </div>
-      </div>
+        </div> 
+      </div>*/}
     </nav>
   );
 };
