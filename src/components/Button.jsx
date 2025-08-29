@@ -2,14 +2,16 @@ import React from "react";
 import { curriculoPDF } from "../assets";
 
 const Button = ({ styles }) => {
+  const baseClasses =
+    "mt-32 py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px]";
   return (
-    <a href={curriculoPDF} download="curriculo">
-      <button
-        type="button"
-        className={`mt-32 py-4 px-6 bg-blue-gradient hover:bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-[10px]`}
-      >
-        Baixar CV
-      </button>
+    <a
+      href={curriculoPDF}
+      download="curriculo_ruan_machado.pdf"
+      className={`${baseClasses} ${styles}`}
+      aria-label="Baixar Currículo em PDF"
+    >
+      Baixar CV
     </a>
   );
 };

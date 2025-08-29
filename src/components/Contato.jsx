@@ -2,6 +2,32 @@ import styles from "../style";
 import Button from "./Button";
 import { curriculo, github, linkedin, email } from "../assets";
 
+const contatoLinks = [
+  {
+    id: "github",
+    icon: github,
+    url: "https://github.com/ruansmachado",
+    label: "Github",
+    username: "@ruansmachado",
+  },
+
+  {
+    id: "linkedin",
+    icon: linkedin,
+    url: "https://www.linkedin.com/in/ruan-machado/",
+    label: "LinkedIn",
+    username: "@ruan-machado",
+  },
+
+  {
+    id: "email",
+    icon: email,
+    url: "mailto:ruansmachado@yahoo.com",
+    label: "E-mail",
+    username: "ruansmachado@yahoo.com",
+  },
+];
+
 const Contato = () => (
   <section
     className={`h-5rem mx-10 xs:mt-[5rem] ss:mt-[15rem] xs:justify-center`}

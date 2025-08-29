@@ -55,7 +55,7 @@ const App = () => {
         {/* Outros meta tags importantes */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#2A5851" />
-        <meta name="author" content="Seu Nome" />
+        <meta name="author" content="Ruan Machado" />
         <link rel="canonical" href={SEO_CONFIG.siteUrl} />
       </Helmet>
 
