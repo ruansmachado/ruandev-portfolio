@@ -3,7 +3,7 @@ import { curriculoPDF } from "../assets";
 
 const Button = ({ styles }) => {
   const baseClasses =
-    "mt-32 py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px]";
+    "inline-block py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px]";
   return (
     <a
       href={curriculoPDF}

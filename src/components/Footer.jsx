@@ -3,8 +3,10 @@ import { socialMedia } from "../constants";
 import { icon } from "../assets";
 
 const Footer = () => (
-  <section
-    className={`${styles.flexCenter} place-items-center relative sm:pt-36 sm:pb-14 pb-6 flex-col`}
+  <footer
+    className={`${styles.flexCenter} ${
+      styles.paddingX || "px-6 sm:px-16"
+    } place-items-center relative sm:pt-36 sm:pb-14 pb-6 flex-col`}
   >
     <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start items-center">
@@ -18,26 +20,32 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6">
+    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[#3F3E45] border-t-[1px]">
       <p className="font-montserrat text-center text-[15px] leading-[27px] text-white">
-        Copyright Ⓒ 2023 Ruandev. Todos os direitos reservados.
+        Copyright {"\u00A9"} {new Date().getFullYear()} Ruandev. Todos os
+        direitos reservados.
       </p>
 
-      <div className="flex flex-row md:mt-0 mt-6">
-        {socialMedia.map((social, index) => (
-          <img
+      <div className="flex flex-row md:mt-0 mt-6 space-x-6">
+        {socialMedia.map((social) => (
+          <a
             key={social.id}
-            src={social.icon}
-            alt={social.id}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
-              index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
-            }`}
-            onClick={() => window.open(social.link)}
-          />
+            href={social.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Visitar perfil no ${social.id}`}
+            className="cursor-pointer hover:opacity-80 transition-opacity duration-300"
+          >
+            <img
+              src={social.icon}
+              alt="" // Decorativo
+              className="w-[21px] h-[21px] object-contain"
+            />
+          </a>
         ))}
       </div>
     </div>
-  </section>
+  </footer>
 );
 
 export default Footer;
